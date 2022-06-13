@@ -1,6 +1,6 @@
 from pytube import YouTube
 
-url = 'https://www.youtube.com/watch?v=Ibfkca2qKWY'
+url = 'Enter URL'
 my_video = YouTube(url)
 
 print("********************Download video*************************")
@@ -12,4 +12,4 @@ for stream in my_video.streams:
 my_video = my_video.streams.get_highest_resolution()
 
 
-my_video.download('C:\VALORANT')
+my_video.download('Specify Path to where you want to store downloaded video')
