@@ -4,7 +4,7 @@ url = 'Enter URL'
 my_video = YouTube(url)
 
 print("********************Download video*************************")
-#get all the stream resolution for the 
+#get all the stream resolution for the video
 for stream in my_video.streams:
     print(stream)
 
